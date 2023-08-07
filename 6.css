@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: Arial;
+}
+
+
+.title{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.rock-button,
+.paper-button,
+.scissor-button{
+    background-color: rgb(20, 20, 20);
+    border: solid;
+    border-radius: 120px;
+    border-color: white;
+    border-width: 3px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.button-img{
+    width: 50px;
+}
+
+.reset-button,
+.autoplay-button{
+    background-color: rgb(20, 20, 20);
+    padding: 5px;
+    color: white;
+    border:solid;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.scores-label,
+.results{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.results-label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.results{
+    margin-bottom: 15px;
+}
